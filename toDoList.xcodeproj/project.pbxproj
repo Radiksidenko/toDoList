@@ -13,6 +13,7 @@
 		7CE0BB40203F32090056FAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE0BB3E203F32090056FAE5 /* Main.storyboard */; };
 		7CE0BB42203F32090056FAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE0BB41203F32090056FAE5 /* Assets.xcassets */; };
 		7CE0BB45203F32090056FAE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE0BB43203F32090056FAE5 /* LaunchScreen.storyboard */; };
+		7CEB1EF520446F75006AB175 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB1EF420446F75006AB175 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7CE0BB41203F32090056FAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE0BB44203F32090056FAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CE0BB46203F32090056FAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEB1EF420446F75006AB175 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7CE0BB41203F32090056FAE5 /* Assets.xcassets */,
 				7CE0BB43203F32090056FAE5 /* LaunchScreen.storyboard */,
 				7CE0BB46203F32090056FAE5 /* Info.plist */,
+				7CEB1EF420446F75006AB175 /* ToDoItem.swift */,
 			);
 			path = toDoList;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				7CE0BB3D203F32090056FAE5 /* SecondViewController.swift in Sources */,
 				7CE0BB39203F32090056FAE5 /* AppDelegate.swift in Sources */,
+				7CEB1EF520446F75006AB175 /* ToDoItem.swift in Sources */,
 				7CE0BB3B203F32090056FAE5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +288,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = raasss.toDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = raasss.toDoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
